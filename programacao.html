@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="port-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Programação do Evento </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js" integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            body{
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ui pointing menu">
+            <a class="item" href="index.html">
+                Início
+            </a>
+            <a class="item" href="inscricao.html"> 
+                Inscrição 
+            </a>       
+            <a class="item" href="contato.html"> 
+                Telefone para contato 
+            </a>
+            <a class="active item" href="programacao.html"> 
+                Programação do evento 
+            </a>
+            <div class="right menu">
+                <div class="item">
+                <div class="ui transparent icon input">
+                    <input type="text" placeholder="procurar...">
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="ui container">
+            <div class="ui secondary black inverted segment">
+                <div class="ui center aligned header">
+                    PROGRAMAÇÃO
+                </div>   
+            </div>
+            <div class="item">
+                <table class="ui very basic large table"> 
+                    <thead><tr>
+                        <th> Data </th>
+                        <th> Horário </th>
+                        <th> Evento </th>
+                        <th> Local </th>
+                    </tr></thead>
+                    <tr>
+                        <td rowspan="4"> 20/11/2023</td>
+                        <td> 8:00 - 9:30</td>
+                        <td> Credenciamento </td>
+                        <td> Auditório </td>
+                    </tr>
+                    <tr>
+                        <td> 9:30 - 10:30 </td>
+                        <td> Exposição cultural e abertura </td>
+                        <td> Auditório </td>
+                    </tr>
+                    <tr>
+                        <td> 10:30 - 11:30 </td>
+                        <td> Exposição de informática </td>
+                        <td> Salas de aula </td>
+                    </tr>
+                    <tr>
+                        <td> 13:00 - 17:00 </td>
+                        <td> Exposição de informática </td>
+                        <td> Salas de aula </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"> 21/11/2023</td>
+                        <td> 8:00 - 9:00</td>
+                        <td> Exposição de teatro </td>
+                        <td> Auditório </td>
+                    </tr>
+                    <tr>
+                        <td> 9:00 - 11:30 </td>
+                        <td> Exposição de mineração </td>
+                        <td> Salas de aula </td>
+                    </tr>
+                    <tr>
+                        <td> 13:00 - 17:00 </td>
+                        <td> Exposição de mineração </td>
+                        <td> Salas de aula </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"> 22/11/2023</td>
+                        <td> 8:00 - 9:00</td>
+                        <td> Exposição cultural </td>
+                        <td> Área de convivência </td>
+                    </tr>
+                    <tr>
+                        <td> 9:00 - 11:30 </td>
+                        <td> Exposição de projetos integradores </td>
+                        <td> Corredores do térreo </td>
+                    </tr>
+                    <tr>
+                        <td> 13:00 - 17:00 </td>
+                        <td> Exposição de projetos integradores </td>
+                        <td> Corredores do térreo </td>
+                    </tr>
+                    <tr>
+                        <td> 13:00 - 17:00 </td>
+                        <td> Exposição de disciplinas </td>
+                        <td> Salas de aula </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"> 23/11/2023</td>
+                        <td> 8:00 - 9:00</td>
+                        <td> Exposição cultural </td>
+                        <td> Área de convivência </td>
+                    </tr>
+                    <tr>
+                        <td> 9:00 - 11:30 </td>
+                        <td> Exposição de disciplinas </td>
+                        <td> Salas de aula </td>
+                    </tr>
+                    <tr>
+                        <td> 13:00 - 17:00 </td>
+                        <td> Exposição poliesportiva </td>
+                        <td> Quadra de esportes do IFRN </td>
+                    </tr>
+                    <tr>
+                        <td> 24/11/2023</td>
+                        <td> 8:00 - 9:30 </td>
+                        <td> Apresentação cultural e Encerramento </td>
+                        <td> Auditório </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
